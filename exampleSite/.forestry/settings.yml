@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: ttt
+  label: test
+  match: "**/*"
 - type: heading
   label: Homepage
 - type: document
@@ -22,9 +26,6 @@ sections:
   - post
 - type: heading
   label: Others Page
-- type: document
-  path: exampleSite/content/faq/_index.md
-  label: FAQ
 - type: document
   path: exampleSite/content/contact/_index.md
   label: Contact
